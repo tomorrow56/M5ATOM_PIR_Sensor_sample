@@ -8,7 +8,7 @@ source. They are pins: 0,2,4,12-15,25-27,32-39.
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 
-RTC_DATA_ATTR int bootCount = 0; // RTCスローメモリに変数を確保
+RTC_DATA_ATTR int bootCount = 0; // RTCスローメモリにブート回数保存用の変数を確保
 //const gpio_num_t wakeIO = GPIO_NUM_39;  // GPIO39(M5ATOMのボタン)をwakeup I/Oに設定する
 const gpio_num_t wakeIO = GPIO_NUM_32;  // GPIO32(Grove pin1)をwakeup I/Oに設定する
 
