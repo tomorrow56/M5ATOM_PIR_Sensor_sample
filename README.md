@@ -2,7 +2,7 @@
 Modify DAISO Sensor Light to M5Stack Unit and connect to ATOM Lite
 
 ## What you can make with this project
-![System Image](img/03_ATOM_with_case.jpg)
+<img src= "img/03_ATOM_with_case.jpg" width="320">
 
 ## System Image
 ![System Image](img/01_system.png)
